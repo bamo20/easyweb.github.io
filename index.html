@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carshiop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+   <section class="container">
+    <!-- menu section -->
+    <nav class="list">
+        <ul>
+            <li><a href="#introduction">New<i class="fa-solid fa-caret-down"></i></a></li>
+            <li><a href="#products" class="second" onclick="mypage()">Services</a></li>
+        </ul>
+    </nav>
+
+</section> 
+  
+  <!-- new toyota products section -->
+   <div class="car" id="introduction">
+     <button class="btn">apply now</button>
+   </div>
+
+
+ <div class="container-2" id="products">
+
+    <nav class="list2">
+        <ul>
+            <li>Toyota</li>
+            <li>Mistzubishi</li>
+            <li>Hayabusa</li>
+            <li>Tanjiro</li>
+            <li>Sakuragi</li>
+            <li>Minato</li>
+            <li>Guko</li>
+        </ul>
+    </nav>
+
+    <nav class="list2">
+        <ul>
+            <li>Kawasaki</li>
+            <li>suzuki</li>
+            <li>kisake</li>
+            <li>sasuke</li>
+            <li>gojo</li>
+            <li>naruto</li>
+            <li>uzamagi</li>
+        </ul>
+    </nav>
+    <nav class="list2">
+        <ul>
+            <li>Kawasaki</li>
+            <li>suzuki</li>
+            <li>kisake</li>
+            <li>sasuke</li>
+            <li>gojo</li>
+            <li>naruto</li>
+            <li>uzamagi</li>
+        </ul>
+    </nav>
+
+    <nav class="list2">
+        <ul>
+            <li>Kawasaki</li>
+            <li>suzuki</li>
+            <li>kisake</li>
+            <li>sasuke</li>
+            <li>gojo</li>
+            <li>naruto</li>
+            <li>uzamagi</li>
+        </ul>
+    </nav>
+ 
+  
+
+    <script>
+        var user = document.querySelector(".btn");
+        user.addEventListener("click", function(){
+            alert("do you really want to apply?")
+            prompt("enter your email")
+        });
+
+        function mypage(element){
+            element.document.querySelector(".container-2")
+        }
+
+        
+     
+    </script>
+ 
+
+</div>
+
+<div class="email">
+    <label for="send">Send Email : </label>
+    <input type="text" id="send" placeholder="here...">
+</div>
+
+</body>
+</html>

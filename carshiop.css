@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@0,300;1,300&family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    position: fixed;
+    top:0; left:0; right:0;  
+    background-color: black;
+    width:100%;
+    height:80px;
+    border:none;
+   
+}
+
+.logo img{
+    width:100px;
+    height:100px;
+}
+
+.list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list ul li{
+    display: inline-block;
+    padding:20px;
+    z-index: -1;
+    margin-right:60px;
+}
+
+.list li a{
+    text-decoration: none;
+    color:white;
+    font-size:17px;
+    font-family:'Poppins', sans-serif ;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.list i{
+    margin-left: 10px;
+}
+
+.list li a:hover{
+    color:aqua;
+}
+
+.car{
+    background-image: url(toyota.jpg);
+    background-position: center;
+    height:100vh;
+    margin-top:70px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left:3rem;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.car h3{
+   padding-bottom:38rem;
+   padding-right: 40px;
+   font-family: 'Poppins', sans-serif;
+   font-size:35px;
+   word-spacing: 1px;
+   text-align: center;
+   cursor: pointer;
+}
+
+span{
+ color: rgba(0,0,164,0.8);
+}
+ 
+
+img{
+    width:59vw;
+    height:95vh;
+    
+ }
+
+.btn{
+    margin-top:33rem;
+    margin-right: 35rem;
+    width:35vw;
+    height:8vh;
+    border:none;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color:rgba(0,0,164,0.8) ;
+    color:white;
+    font-size: 20px;
+}
+
+.models{
+    width:100%;
+    height:15vh;
+    background-color:rgba(0,0,164,0.8) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.models h1{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+     word-spacing: 2px;
+     letter-spacing: 5px;
+}
+
+.container-2{
+    width: 100%;
+    height:70vh;
+    background-color: black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:8rem;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.list2 li{
+display: block;
+font-size: 18px;
+text-transform: uppercase;
+line-height: 35px;
+transition: 0.2s;
+cursor: pointer;
+}
+
+.list2 li {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ li:hover{
+    color:aqua;
+    padding-left:5px;
+}
+
+.email{
+    width:100%;
+    height:20vh;
+    background-color:black;
+}
+ 
+input{
+margin-left:10px;
+height:40px;
+width:20vw;
+padding-left:10px;
+border:none;
+font-size:20px;
+}
+label{
+    color:white;
+    padding-left:10rem;
+    font-family: arial;
+}
